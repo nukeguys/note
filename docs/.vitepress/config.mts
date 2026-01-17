@@ -25,6 +25,8 @@ export default defineConfig({
     },
   },
 
+  head: [["link", { rel: "icon", href: "/favicon.png" }]],
+
   // _로 시작하는 폴더 제외
   srcExclude: ["**/_*/**", "**/_*.md"],
 
@@ -37,6 +39,7 @@ export default defineConfig({
   lastUpdated: true,
 
   themeConfig: {
+    logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
