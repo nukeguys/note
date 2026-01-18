@@ -60,7 +60,9 @@ export default defineConfig({
         rootGroupText: "Notes",
         rootGroupLink: "/",
         collapsed: true,
-        excludePattern: ["index.md"],
+        capitalizeEachWords: true,
+        hyphenToSpace: true,
+        underscoreToSpace: true,
       },
       {
         documentRootPath: "docs",
@@ -73,7 +75,9 @@ export default defineConfig({
         rootGroupText: "Learn",
         rootGroupLink: "/",
         collapsed: true,
-        excludePattern: ["index.md"],
+        capitalizeEachWords: true,
+        hyphenToSpace: true,
+        underscoreToSpace: true,
       },
     ]),
 
