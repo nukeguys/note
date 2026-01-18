@@ -38,6 +38,8 @@ export default defineConfig({
   // 마지막 수정일 표시
   lastUpdated: true,
 
+  cleanUrls: true,
+
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
@@ -70,6 +72,7 @@ export default defineConfig({
         rootGroupText: "Notes",
         rootGroupLink: "/",
         collapsed: false,
+        collapseDepth: 3,
         hyphenToSpace: true,
         underscoreToSpace: true,
       },
@@ -83,7 +86,7 @@ export default defineConfig({
         useFolderLinkFromIndexFile: true,
         rootGroupText: "Learn",
         rootGroupLink: "/",
-        collapsed: false,
+        collapseDepth: 3,
         hyphenToSpace: true,
         underscoreToSpace: true,
       },
@@ -97,7 +100,7 @@ export default defineConfig({
         useFolderLinkFromIndexFile: true,
         rootGroupText: "Inbox",
         rootGroupLink: "/",
-        collapsed: false,
+        collapseDepth: 3,
         hyphenToSpace: true,
         underscoreToSpace: true,
       },
