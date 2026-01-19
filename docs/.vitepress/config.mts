@@ -44,7 +44,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Notes", link: "/notes/" },
-      { text: "AI", link: "/AI/" },
+      { text: "Learn AI", link: "/ai/" },
       { text: "OOTR", link: "https://ootr.kkick.xyz/" },
       {
         text: "More",
@@ -77,9 +77,9 @@ export default defineConfig({
       },
       {
         documentRootPath: "docs",
-        scanStartPath: "AI",
-        basePath: "/AI/",
-        resolvePath: "/AI/",
+        scanStartPath: "ai",
+        basePath: "/ai/",
+        resolvePath: "/ai/",
         useTitleFromFileHeading: true,
         useFolderTitleFromIndexFile: true,
         useFolderLinkFromIndexFile: true,
