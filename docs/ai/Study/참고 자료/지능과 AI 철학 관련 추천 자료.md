@@ -13,24 +13,15 @@
 
 - [CrashCourse AI - History of AI](https://www.youtube.com/watch?v=JMUxmLyrhSk)
   - 짧고 핵심적으로 AI 발전사를 정리
-- [Computerphile - AI vs Human Intelligence](https://www.youtube.com/watch?v=vnxWZVgYkOE)
-  - 인간 지능과 AI 지능 비교
 
 ## 2. 지능 정의와 철학적 논의
 
 ### 글
 
-- Searle, John. _Minds, Brains, and Programs_ (Chinese Room 논증)
+- [Searle, John. _Minds, Brains, and Programs_ (Chinese Room 논증)](https://zoo.cs.yale.edu/classes/cs471/13s/13s-papers/searle-chinese-room-bbs.pdf)
   - AI가 진정 이해할 수 있는가에 대한 고전 철학 논문
 - Nick Bostrom, _Superintelligence_ (Introduction)
   - AI와 지능의 본질, 잠재적 미래 논의
-
-### 영상
-
-- [Kurzgesagt - Can Machines Think?](https://www.youtube.com/watch?v=Jb6pfh2kzG8)
-  - 인간과 기계 지능의 차이를 철학적으로 풀어낸 영상
-- [Computerphile - The Chinese Room Argument](https://www.youtube.com/watch?v=3K_2R4YbRCM)
-  - Searle 논증을 쉽게 설명
 
 ## 3. 현대 AI 관점과 지능
 
