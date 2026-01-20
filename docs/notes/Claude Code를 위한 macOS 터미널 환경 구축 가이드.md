@@ -27,6 +27,15 @@
 
 ## 2. powerlevel10k 설정
 
+`~/.p10k.zsh` 파일을 열어 다음 내용을 찾아 수정:
+
+```zsh
+# 파일 열기
+vim ~/.p10k.zsh
+# 또는
+code ~/.p10k.zsh
+```
+
 ### 2.1 Instant Prompt
 
 ```zsh
@@ -50,15 +59,6 @@ typeset -g POWERLEVEL9K_VCS_GIT_HOOKS=(
 - 대형 repo에서도 프롬프트 멈춤 방지
 
 ### 2.3 Prompt 구성
-
-`~/.p10k.zsh` 파일을 열어 다음 내용을 찾아 수정:
-
-```zsh
-# 파일 열기
-vim ~/.p10k.zsh
-# 또는
-code ~/.p10k.zsh
-```
 
 #### LEFT prompt (필요한 정보만 표시)
 
@@ -119,31 +119,31 @@ brew install tmux
 ```zsh
 ##### Prefix
 set -g prefix C-a
-unbind C-b
-bind C-a send-prefix
+unbind-key C-b
+bind-key C-a send-prefix
 
 ##### 성능 최적화
 set -s escape-time 0
 
 ##### Pane 이동 (vim 스타일)
-bind h select-pane -L
-bind j select-pane -D
-bind k select-pane -U
-bind l select-pane -R
+bind-key h select-pane -L
+bind-key j select-pane -D
+bind-key k select-pane -U
+bind-key l select-pane -R
 
 ##### Pane 분할
-bind | split-window -h
-bind - split-window -v
+bind-key | split-window -h
+bind-key - split-window -v
 
 ##### Pane 크기 조절
-bind -r H resize-pane -L 5
-bind -r J resize-pane -D 5
-bind -r K resize-pane -U 5
-bind -r L resize-pane -R 5
+bind-key -r H resize-pane -L 5
+bind-key -r J resize-pane -D 5
+bind-key -r K resize-pane -U 5
+bind-key -r L resize-pane -R 5
 
 ##### Pane 위치 교체
-bind { swap-pane -U
-bind } swap-pane -D
+bind-key '{' swap-pane -U
+bind-key '}' swap-pane -D
 
 ##### Mouse & scroll
 set -g mouse on
@@ -158,7 +158,7 @@ bind-key -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "pbcopy"
 set -g aggressive-resize on
 
 ##### Reload
-bind r source-file ~/.tmux.conf \; display "tmux reloaded"
+bind-key r source-file ~/.tmux.conf \; display "tmux reloaded"
 ```
 
 설정 적용:
