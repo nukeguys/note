@@ -33,7 +33,7 @@
 
 **추천 자료:**
 
-- Andrew Ng – _AI for Everyone_ (Week 1)
+- [Andrew Ng – _AI for Everyone_ (Week 1)](../ai-for-everyone/AI4E-W1-What-is-AI.md)
 - 《Artificial Intelligence: A Modern Approach》 서론
 - 블로그: _What is GOFAI?_
 - StatQuest – _What is Machine Learning?_

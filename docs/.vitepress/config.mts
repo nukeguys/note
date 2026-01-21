@@ -9,7 +9,7 @@ const commonSidebarOptions: VitePressSidebarOptions = {
   useFolderTitleFromIndexFile: true,
   useFolderLinkFromIndexFile: true,
   rootGroupLink: "/",
-  collapseDepth: 2,
+  collapsed:true,
   hyphenToSpace: true,
   underscoreToSpace: true,
   sortFolderTo: "bottom",
