@@ -1,4 +1,4 @@
-# Week 3–4 Summary
+# 03. Week 3–4 Summary
 
 ## 1. 모델(Model)이란 무엇인가
 

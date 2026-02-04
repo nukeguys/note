@@ -1,4 +1,4 @@
-# 04. Dialogue Log
+# 01. Dialogue Log
 
 ## 왜 모델은 “잘” 혹은 “너무 잘” 배울까?
 
