@@ -1,4 +1,4 @@
-# nukeguys Journal
+# nukeguys Note
 
 Obsidian을 기반으로 하는 VitePress 정적 사이트입니다. 개인적인 생각, 노트, 학습 자료를 기록하고 배포합니다.
 
@@ -36,11 +36,11 @@ pnpm docs:preview
 2. **Build and deployment > Source** 옵션을 **`GitHub Actions`**로 선택합니다.
    - 이 설정을 완료해야 `.github/workflows/deploy.yml`이 정상 작동합니다.
 
-### 2. 커스텀 도메인 설정 (`journal.kkick.xyz`)
+### 2. 커스텀 도메인 설정 (`note.kkick.xyz`)
 
 #### GitHub 설정
 
-1. **Settings > Pages**의 **Custom domain** 섹션에 `journal.kkick.xyz`를 입력하고 저장합니다.
+1. **Settings > Pages**의 **Custom domain** 섹션에 `note.kkick.xyz`를 입력하고 저장합니다.
 2. **DNS 확인(Verification)**이 완료되면 **Enforce HTTPS**를 체크합니다.
 
 #### DNS 설정 (예: Cloudflare)
@@ -48,7 +48,7 @@ pnpm docs:preview
 DNS 관리자에서 다음 레코드를 추가해야 합니다.
 
 - **Type**: `CNAME`
-- **Name**: `journal`
+- **Name**: `note`
 - **Target**: `<your-github-id>.github.io`
 - **Proxy status**: `Proxied` 권장
 

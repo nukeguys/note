@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: SeungKyu’s Journal
+  name: SeungKyu's Note
   text: Record thoughts. Keep notes.
   tagline: A personal space for notes, thoughts, and learning.
 

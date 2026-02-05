@@ -48,7 +48,7 @@ export default defineConfig({
 
   // sitemap
   sitemap: {
-    hostname: "https://journal.kkick.xyz",
+    hostname: "https://note.kkick.xyz",
   },
 
   cleanUrls: true,
@@ -86,7 +86,7 @@ export default defineConfig({
         scanStartPath: "ai",
         basePath: "/ai/",
         resolvePath: "/ai/",
-        rootGroupText: "AI",
+        rootGroupText: "Learn AI",
       },
       {
         ...commonSidebarOptions,
