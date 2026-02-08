@@ -8,10 +8,15 @@ hero:
   tagline: A personal space for notes, thoughts, and learning.
 
 features:
-  - icon: ✏️
+  - icon: 📝
     title: Notes
     details: The faintest ink is more powerful than the strongest memory.
     link: /notes/
+    linkText: 둘러보기
+  - icon: ✏️
+    title: Essay
+    details: I write to discover what I think.
+    link: /essay/
     linkText: 둘러보기
   - icon: 📖
     title: Learn AI

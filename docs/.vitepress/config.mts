@@ -59,6 +59,7 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Notes", link: "/notes/" },
+      { text: "Essay", link: "/essay/" },
       { text: "Learn AI", link: "/ai/" },
       { text: "OOTR", link: "https://ootr.kkick.xyz/" },
       {
@@ -80,6 +81,13 @@ export default defineConfig({
         basePath: "/notes/",
         resolvePath: "/notes/",
         rootGroupText: "Notes",
+      },
+      {
+        ...commonSidebarOptions,
+        scanStartPath: "essay",
+        basePath: "/essay/",
+        resolvePath: "/essay/",
+        rootGroupText: "Essay",
       },
       {
         ...commonSidebarOptions,
