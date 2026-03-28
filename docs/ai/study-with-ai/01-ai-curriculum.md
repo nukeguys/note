@@ -544,8 +544,8 @@
 
 ### 진도 체크
 
-- [ ] Phase 1: AI의 역사와 기초 개념 이해
-- [ ] Phase 2: ML의 핵심 사고방식 습득
+- [x] Phase 1: AI의 역사와 기초 개념 이해
+- [x] Phase 2: ML의 핵심 사고방식 습득
 - [ ] Phase 3: 딥러닝과 Transformer 이해
 - [ ] Phase 4: LLM 시스템 설계 능력
 
